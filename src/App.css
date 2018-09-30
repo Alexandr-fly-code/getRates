@@ -1,0 +1,10 @@
+.wrapper {
+  background-color: #282828;
+}
+
+.content {
+  padding: 1.625rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
