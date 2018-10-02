@@ -14,9 +14,10 @@ class App extends Component {
   render() {
     return (
       <div className="wrapper">
-          <div className="content">
+          {/*<div className="content">*/}
+
               <Main/>
-          </div>
+          {/*</div>*/}
 
       </div>
     );

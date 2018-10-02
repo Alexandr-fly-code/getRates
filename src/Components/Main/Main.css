@@ -2,7 +2,28 @@
     color: #ffffff;
     font-size: 1.5rem;
 }
+.main {
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -25%);
+}
 .container {
     text-align: center;
     margin-bottom: 0.5rem;
+}
+
+.overlay {
+    margin-bottom: 20px;
+    height: 100vh;
+    background-color: #e8fff3;
+    opacity: 0.7;
+}
+.item-table {
+    text-align: left;
+}
+.login-btn {
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
 }
