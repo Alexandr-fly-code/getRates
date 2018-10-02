@@ -32,7 +32,7 @@ const Modal = (props) => {
                 <input type="text" value={loginReducers}
                        placeholder='login' onChange={props.loginHandler} className='form-input'/>
                 {/*value={login}*/}
-                <input type="text" value={passReducers}
+                <input type="password" value={passReducers}
                        placeholder='pass' onChange={props.passHandler} className='form-input'/>
                 <input type="submit" value='Submit' className='btn'/>
                 {/*value={pass}*/}
